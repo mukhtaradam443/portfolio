@@ -3,6 +3,15 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.section-header{
+    text-decoration: underline;
+    color: red;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
 .container{
     background-color: white;
 
@@ -66,5 +75,56 @@
 
 
 .about{
-    padding: 100px;
+    padding: 100px 200px;
+    background-color:blue;
+    color: white;
+}
+
+
+.about p{
+    line-height: 1.5;
+    text-align: justify;
+}
+
+
+.contact{
+    padding: 100px 200px;
+    background-color: cornsilk;
+}
+
+
+.contact-details{
+    margin-bottom: 50px;
+}
+
+.contact-details h3 i{
+    color: gray;
+    margin-right: 5px;
+}
+
+.contact-details p{
+    margin-bottom: 20px;
+}
+
+.contact-form .form-group{
+    margin-bottom: 10px;
+}
+
+.contact-form label{
+    display: block;
+    color: gray;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.contact-form input{
+    width: 100%;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 8px;
+}
+
+.contact-form input[type="submit"]{
+    background-color: red;
+    color: white;
 }
